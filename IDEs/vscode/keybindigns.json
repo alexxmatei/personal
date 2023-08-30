@@ -1,0 +1,59 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+shift+alt+k",
+    "command": "workbench.action.terminal.clear"
+  },
+  {
+    "key": "ctrl+shift+alt+[Period]",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+[Period]",
+    "command": "workbench.action.terminal.quickFix",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+alt+[Period]",
+    "command": "problems.action.showQuickFixes",
+    "when": "problemFocus"
+  },
+  {
+    "key": "ctrl+[Period]",
+    "command": "-problems.action.showQuickFixes",
+    "when": "problemFocus"
+  },
+  {
+    "key": "ctrl+[Period]",
+    "command": "-workbench.action.terminal.quickFix",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+[Period]",
+    "command": "-editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+v",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  // See: https://stackoverflow.com/questions/57815756/how-to-go-to-first-or-last-occurrence-from-list-of-searched-string-in-vscode
+  // Dependency: VS Code extension - multi-command
+  {
+    "key": "alt+m",
+    "command": "extension.multiCommand.execute",
+    "args": {
+      "sequence": ["cursorTop", "editor.action.nextMatchFindAction"]
+    }
+    // "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+m",
+    "command": "extension.multiCommand.execute",
+    "args": {
+      "sequence": ["cursorBottom", "editor.action.previousMatchFindAction"]
+    }
+    // "when": "editorTextFocus"
+  }
+]
