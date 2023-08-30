@@ -1,0 +1,138 @@
+{
+  /********** Default *********************************************************/
+  "editor.rulers": [79], /* Limit lines for terminals and vertical monitors.*/
+  "editor.formatOnSave": true,
+  /****************************************************************************/
+
+  /********** Todo Tree *******************************************************/
+    /* TODO - Remove */
+/*   "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "IMPROVE",
+    "NAMING",
+    "REF",
+    "!WARN",
+    "WARN",
+    "REVIEW",
+    "todo"
+  ], */
+  "todo-tree.general.tags": [
+    /* TODO - consider a tag for minor bugs as well */
+    "BUG",
+    "HACK",
+    "TODO",
+    "!TODO",
+    "IMPROVE",
+    "NAMING",
+    "REF",
+    "!WARN",
+    "WARN",
+    "REVIEW"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    /* REF - http://jonasbn.github.io/til/vscode/todo_tree_extension.html */
+    /* Used for marking code snippets that MUST be addressed. */
+    "TODO": {
+      "foreground": "#000000",
+      "background": "#008000",
+      "iconColour": "#008000",
+      "icon": "check",
+      "type": "tag",
+      /* Display as a badge in the activity bar (MUST be handled) */
+      "hideFromActivityBar": false
+    },
+    /* More aggressive variant of normal TODO (highlights whole line) */
+    "!TODO": {
+      "foreground": "#000000",
+      "background": "#008000",
+      "iconColour": "#008000",
+      "icon": "check",
+      "type": "whole-line",
+      /* Display as a badge in the activity bar (MUST be handled) */
+      "hideFromActivityBar": false
+    },
+    /* Bring attention to something that might not be best practice.
+     * Can be used for any other reasons one considers useful. */
+    "WARN": {
+      "foreground": "#000000",
+      "background": "#FFA500",
+      "iconColour": "#FFA500",
+      "icon": "alert",
+      "type": "tag",
+      /* Do not display as a badge in the activity bar (can be ignored) */
+      "hideFromActivityBar": true
+    },
+    /* More aggressive variant of normal WARN (highlights whole line) */
+    "!WARN": {
+      "foreground": "#000000",
+      "background": "#FFA500",
+      "iconColour": "#FFA500",
+      "icon": "alert",
+      "type": "whole-line",
+      /* Do not display as a badge in the activity bar (can be ignored) */
+      "hideFromActivityBar": true
+    },
+    /* Marks a section of code that can be improved but is not necessary.
+     * The program works fine without the improvement but not optimally. */
+    "IMPROVE": {
+      "foreground": "#000000",
+      "background": "#ffd700",
+      "iconColour": "#ffd700",
+      "icon": "star",
+      /* Do not display as a badge in the activity bar (can be ignored) */
+      "hideFromActivityBar": true
+    },
+    /* Placeholder constant or variable name that should be changed. */
+    "NAMING": {
+      "icon": "pencil",
+      "iconColour": "#87ceeb",
+      "background": "#87ceeb",
+      "foreground": "#000000",
+      /* Do not display as a badge in the activity bar (can be ignored) */
+      "hideFromActivityBar": true
+    },
+    /* 🪲 Squish, squash, get rid of that demon. */
+    "BUG": {
+      /* TODO - Add additional fields */
+      "icon": "bug",
+      /* Display as a badge in the activity bar (MUST be handled) */
+      "hideFromActivityBar": false
+    },
+    /* Like WARN but more explicit that it represents a hack. */
+    "HACK": {
+      "foreground": "#000000",
+      "background": "#FFA500",
+      "iconColour": "#ffa500",
+      "icon": "alert",
+      /* Do not display as a badge in the activity bar (can be ignored) */
+      "hideFromActivityBar": true
+    },
+    /* Reference, useful for leaving useful links within the codebase. */
+    "REF": {
+      "foreground": "#000000",
+      "background": "#808080",
+      "iconColour": "#808080",
+      "icon": "link",
+      "type": "tag",
+      /* Do not display as a badge in the activity bar (can be ignored) */
+      "hideFromActivityBar": true
+    },
+    /* Useful to mark sections of code that you consider to need a more thorough
+     * look. Should be removed after being approved by colleagues. */
+    "REVIEW": {
+      "foreground": "#000000",
+      "background": "#00ffff",
+      "iconColour": "#add8e6",
+      "icon": "eye",
+      /* Display as a badge in the activity bar (MUST be handled) */
+      "hideFromActivityBar": false
+    }
+  },
+  /****************************************************************************/
+}
