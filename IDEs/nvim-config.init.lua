@@ -12,3 +12,17 @@ vim.o.shellxquote = ''
 
 -- Enable relative numbering for VIM
 vim.o.relativenumber = true
+
+-- NOTE: These changes have to be manually integrated under lazy.nvim
+-- lazy.nvim packets
+{
+  "folke/todo-comments.nvim",
+  dependencies = { "nvim-lua/plenary.nvim" },
+  opts = {
+    highlight = {
+      pattern = [[.*<(KEYWORDS)]], -- pattern or table of patterns, used for highlighting (vim regex)
+    },
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
+},
