@@ -26,3 +26,8 @@ git branch -r
 ```
 git branch -a
 ```
+## Staging
+### Remove all untracked files (forced)
+```
+git clean -f
+```
