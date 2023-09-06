@@ -36,3 +36,15 @@ git push -u origin <branch>
 ```
 git clean -f
 ```
+## Commit
+### Update the message of the previous commit
+```
+git commit --amend -m "an updated commit message"
+```
+### Add additional staged files without changing the commit message
+```
+git commit --amend --no-edit
+```
+Where:
+`--no-edit` flag allows amendments to commit without changing its commit message.
+`--ammend` flag allows an edit to the previous commit, be it changing the message with an additional `-m`, adding additional stage files, or both.
