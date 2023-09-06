@@ -40,7 +40,7 @@ git branch -d branch-name
 ```
 git push origin -d branch-name
 ```
-To verify that the remote branch has been deleted, you can run `git branch -a`.
+To verify that the remote branch has been deleted, you can run [`git branch -a`](https://github.com/alexxmatei/personal/blob/main/commands/git.md#see-all-local--remote-branches).
 ## Staging
 #### Remove all untracked files (forced)
 ```
