@@ -26,6 +26,11 @@ git branch -r
 ```
 git branch -a
 ```
+### Set local branch to origin as upstream
+```
+git push -u origin <branch>
+```
+`-u` flag is short for --set-upstream
 ## Staging
 ### Remove all untracked files (forced)
 ```
