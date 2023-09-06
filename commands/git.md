@@ -36,6 +36,8 @@ git push -u origin <branch>
 ```
 git branch -d branch-name
 ```
+Note: You cannot delete a branch if it is currently checked out (the active branch).
+      If this is the case, switch to another branch, then delete the intended branch.
 #### Deleting a remote branch
 ```
 git push origin -d branch-name
