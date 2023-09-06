@@ -1,6 +1,6 @@
 # Git commands
 ## Configuration
-### List all the configuration settings
+#### List all the configuration settings
 ```
 git config --list
 ```
@@ -14,34 +14,44 @@ git config user.name=INSERT_NAME_HERE
 git config user.email=INSERT_EMAIL_HERE
 ```
 ## Branches
-### See local branches
+#### See local branches
 ```
 git branch
 ```
-### See remote branches
+#### See remote branches
 ```
 git branch -r
 ```
-### See all local & remote branches
+#### See all local & remote branches
 ```
 git branch -a
 ```
-### Set local branch to origin as upstream
+#### Set local branch to origin as upstream
 ```
 git push -u origin <branch>
 ```
 `-u` flag is short for --set-upstream
+### Deletion
+#### Deleting a local branch
+```
+git branch -d branch-name
+```
+#### Deleting a remote branch
+```
+git push origin -d branch-name
+```
+To verify that the remote branch has been deleted, you can run `git branch -a`.
 ## Staging
-### Remove all untracked files (forced)
+#### Remove all untracked files (forced)
 ```
 git clean -f
 ```
 ## Commit
-### Update the message of the previous commit
+#### Update the message of the previous commit
 ```
 git commit --amend -m "an updated commit message"
 ```
-### Add additional staged files without changing the commit message
+#### Add additional staged files without changing the commit message
 ```
 git commit --amend --no-edit
 ```
