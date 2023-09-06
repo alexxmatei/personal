@@ -1,9 +1,14 @@
 # PowerShell
-## Setup guide
+## Commands
+```powershell
+Get-Command <COMMAND>
+```
+Equivalent to the bash `which` command used to identify the location of an executable.
+## Scripts
+### Setup guide
 1. Create a folder in your user space where the commands will be stored as .ps1 files (for example au2cb.ps1)
 2. Add that folder to the path in your environment variables
 3. You should be able to run the commands from PowerShell by calling the file name, no extension (ex: au2cb)
-### Scripts
 #### au2cb (Append UTC time To ClipBoard)
 This command appends the UTC timestamp (Zulu time) to the clipboard content in a computer & program friendly format.  
 ```powershell
