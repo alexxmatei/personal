@@ -60,3 +60,15 @@ git commit --amend --no-edit
 Where:
 `--no-edit` flag allows amendments to commit without changing its commit message.
 `--ammend` flag allows an edit to the previous commit, be it changing the message with an additional `-m`, adding additional stage files, or both.
+## Remote
+#### Check remote repositories URLs
+```
+git remote -v
+```
+`-v` flag is short for verbose. This format will include the name and URL of each remote repository.
+#### Change remote repository URL
+Changes the remote repository URL associated with the local git repository.
+```
+git remote set-url  https://[USERNAME]@github.com/usernameOrOrganisation/repository.git
+```
+`USERNAME` - this is optional, it allows you to tie the repository to a certain user.
