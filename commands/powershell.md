@@ -32,3 +32,10 @@ if ($user_param_input -match $pattern) {
     Write-Host "Error: Invalid input. Please enter a valid decimal number."
 }
 ```
+#### rex (Reset Explorer)
+```powershell
+taskkill /f /im explorer.exe
+start explorer.exe
+```
+`/im` flag specifies the image name of the process to terminate (ex: explorer.exe)
+`/f` flag forces the process to terminate
