@@ -26,6 +26,8 @@ git branch -r
 ```
 git branch -a
 ```
+#### Extra git branch flags
+`-D` - this flag is equivalent to `-d` `--force`
 #### Set local branch to origin as upstream
 ```
 git push -u origin <branch>
