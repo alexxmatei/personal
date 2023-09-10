@@ -1,3 +1,5 @@
+@rem Change Directory to Desktop
+
 @rem Disables echoing of commands.
 @rem The @ symbol is used to prevent the echo off & rem lines from displaying.
 @echo off

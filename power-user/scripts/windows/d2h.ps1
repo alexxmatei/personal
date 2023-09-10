@@ -1,3 +1,5 @@
+# Decimal To Hexadecimal
+
 $user_param_input = $args[0] # Take user input through a parameter
 # Define a regular expression pattern to match a decimal number
 $pattern = "^\d+(\.\d+)?$"

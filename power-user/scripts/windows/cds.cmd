@@ -1,8 +1,10 @@
+@rem Change Directory to Scripts
+
 @rem Disables echoing of commands.
 @rem The @ symbol is used to prevent the echo off & rem lines from displaying.
 @echo off
 
 rem Change directory to the env var pointing to the desktop folder.
-cd /d %DESKTOP%
+cd /d %UP_SCRIPTS%
 rem The `/d` flag stands for change drive.
 rem It allows us to change the drive as well, if needed.
