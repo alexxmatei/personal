@@ -82,17 +82,7 @@ require('lazy').setup({
     'neovim/nvim-lspconfig',
     dependencies = {
       -- Automatically install LSPs to stdpath for neovim
-      { 'williamboman/mason.nvim', config = true, 
-        opts = {    
-          ui = {
-            icons = {
-              package_installed = "✓",
-              package_pending = "➜",
-              package_uninstalled = "✗"
-            }
-          }
-        }
-      },
+      { 'williamboman/mason.nvim', config = true },
       'williamboman/mason-lspconfig.nvim',
 
       -- Useful status updates for LSP
@@ -230,6 +220,9 @@ require('lazy').setup({
     opts = {
       highlight = {
         pattern = [[.*<(KEYWORDS)]], -- pattern or table of patterns, used for highlighting (vim regex)
+      },
+      keywords = {
+        REF = {icon = "R", color="hint"},
       },
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
