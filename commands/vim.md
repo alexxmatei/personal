@@ -22,3 +22,12 @@ This command has to be entered from normal mode (not command mode).
 ```nvim
 :set cmdheight=VALUE
 ```
+## Miscellaneous
+#### Caesar cypher substitution for the current row by an offset of 13 letters
+```
+g?g?
+```
+or
+```
+g??
+```
