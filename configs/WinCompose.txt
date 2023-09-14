@@ -53,8 +53,10 @@
 <Multi_key> <e> <b> : "📚" # Emojii books
 <Multi_key> <e> <d> : "🎲" # Emojii dice
 <Multi_key> <e> <f> <g> : "😁" # Emojii face grinning
-<Multi_key> <e> <j> : "🕹️" # Emojii joystick
+<Multi_key> <e> <f> <m> : "🤯" # Emojii face mind blown
 <Multi_key> <e> <g> <c> : "🎓" Emojii graduation cap
+<Multi_key> <e> <j> : "🕹️" # Emojii joystick
+<Multi_key> <e> <l> : "💻" # Emojii laptop
 <Multi_key> <e> <p> <u> : "👆" #Emojii point up
 <Multi_key> <e> <s> : "📜 " #Emojii scroll
 <Multi_key> <e> <w> : "🪟" # Emojii window
