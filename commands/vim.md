@@ -23,6 +23,17 @@ This command has to be entered from normal mode (not command mode).
 :set cmdheight=VALUE
 ```
 ## Miscellaneous
+#### Text Line Wrapping and Formatting (Set to textwidth)
+```
+gq
+```
+Vim 'gq' command: Formats and wraps text to a specified width for readability and style compliance.
+By default this is 80 characters. If prefixed with [count] it will wrap text to that [count] value.
+The texwidth option is what defines the default value, to change it use:
+```
+:set textwidth=<value>
+```
+
 #### Caesar cypher substitution for the current row by an offset of 13 letters
 ```
 g?g?
