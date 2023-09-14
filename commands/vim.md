@@ -1,4 +1,12 @@
-# Neovim commands
+# VIM commands
+## Basic options
+#### Display line numbers
+```
+:set number
+```
+```
+:set relativenumber
+```
 ## Change directory
 #### This command changes the working directory to the relative path of the directory containing the currently opened file.
 ```nvim
