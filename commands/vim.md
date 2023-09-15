@@ -30,6 +30,22 @@ This command has to be entered from normal mode (not command mode).
 ```nvim
 :set cmdheight=VALUE
 ```
+
+## Normal mode
+#### Change/view/delete inside
+```
+ci SYMBOL
+```
+```
+vi SYMBOL
+```
+```
+di SYMBOL
+```
+Where `SYMBOL` can be `[`, `{`. `"`, `(`, etc.  
+This command selects everything between `[]`, `{}`, `""`, `()`, etc.
+If you're before the `SYMBOL` the cursor will automatically find and jump to the `SYMBOL` as well.
+
 ## Miscellaneous
 #### Text Line Wrapping and Formatting (Set to textwidth)
 ```
