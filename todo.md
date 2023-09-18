@@ -10,3 +10,6 @@ Hard & Soft links
 
 ## Scripts
 - add nvim to init_environment
+
+## Configs
+- add REVIEW keyword to nvim TODO
