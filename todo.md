@@ -7,3 +7,6 @@ Hard & Soft links
 - Replace rem with ::
 - Display proper custom success & error console messages
 - Suppress command output to console when necessary
+
+## Scripts
+- add nvim to init_environment
