@@ -219,7 +219,12 @@ require('lazy').setup({
     dependencies = { "nvim-lua/plenary.nvim" },
     opts = {
       highlight = {
-        pattern = [[.*<(KEYWORDS)]], -- pattern or table of patterns, used for highlighting (vim regex)
+        -- pattern or table of patterns, used for highlighting (vim regex)
+        pattern = [[.*<(KEYWORDS)]],
+      },
+      search = {
+        -- Match keyword without extra symbols (can get false positives).
+        pattern = [[\b(KEYWORDS)\b]],
       },
       keywords = {
         REF = {icon = "R", color="hint"},
