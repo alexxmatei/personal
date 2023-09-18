@@ -227,7 +227,8 @@ require('lazy').setup({
         pattern = [[\b(KEYWORDS)\b]],
       },
       keywords = {
-        REF = {icon = "R", color="hint"},
+        REF = {icon = "R", color="hint"}, -- Reference
+        REVIEW = {icon ="R"},
       },
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
