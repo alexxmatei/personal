@@ -1,4 +1,26 @@
 # Git commands
+## Cloning
+#### Cloning a repository
+```
+git clone REPOSITORY_URL [DIR_NAME]
+```
+`REPOSITORY_URL`: The URL of the Git repository you want to clone (can be HTTPS or SSH URLs).  
+`DIR_NAME` (optional): Name of the directory where the repository will be cloned. If you don't specify a directory name, Git will use the name of the repository by default.
+#### Cloning a specific branch
+```
+git clone -b BRANCH_NAME REPOSITORY_URL
+```
+#### Cloning as specific user
+For authentication purposes (amongst others) a repository can be cloned with a specific user.
+##### HTTPS
+```
+git clone https://username@github.com/yourusername/myrepo.git
+```
+##### SSH
+```
+git clone git@github.com:yourusername/myrepo.git
+```
+
 ## Configuration
 #### List all the configuration settings
 ```
@@ -13,6 +35,8 @@ git config user.name=INSERT_NAME_HERE
 ```
 git config user.email=INSERT_EMAIL_HERE
 ```
+
+
 ## Branches
 #### See local branches
 ```
@@ -45,11 +69,15 @@ Note: You cannot delete a branch if it is currently checked out (the active bran
 git push origin -d branch-name
 ```
 To verify that the remote branch has been deleted, you can run [`git branch -a`](https://github.com/alexxmatei/personal/blob/main/commands/git.md#see-all-local--remote-branches).
+
+
 ## Staging
 #### Remove all untracked files (forced)
 ```
 git clean -f
 ```
+
+
 ## Commit
 #### Update the message of the previous commit
 ```
@@ -62,6 +90,8 @@ git commit --amend --no-edit
 Where:
 `--no-edit` flag allows amendments to commit without changing its commit message.
 `--ammend` flag allows an edit to the previous commit, be it changing the message with an additional `-m`, adding additional stage files, or both.
+
+
 ## Remote
 #### Check remote repositories URLs
 ```
