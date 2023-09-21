@@ -101,6 +101,6 @@ git remote -v
 #### Change remote repository URL
 Changes the remote repository URL associated with the local git repository.
 ```
-git remote set-url  https://[USERNAME]@github.com/usernameOrOrganisation/repository.git
+git remote set-url origin https://[USERNAME]@github.com/usernameOrOrganisation/repository.git
 ```
 `USERNAME` - this is optional, it allows you to tie the repository to a certain user.
