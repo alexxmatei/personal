@@ -60,6 +60,7 @@
 <Multi_key> <e> <l> : "💻" # Emojii laptop
 <Multi_key> <e> <p> <u> : "👆" #Emojii point up
 <Multi_key> <e> <s> : "📜 " #Emojii scroll
+<Multi_key> <e> <t> : "✅" #Emojii tick
 <Multi_key> <e> <w> : "🪟" # Emojii window
 <Multi_key> <f> <c> <h> : "🇨🇳" # Flag China
 <Multi_key> <f> <d> <e> : "🇩🇪" # Flag Deutchland (Germany)
