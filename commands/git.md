@@ -103,4 +103,9 @@ Changes the remote repository URL associated with the local git repository.
 ```
 git remote set-url origin https://[USERNAME]@github.com/usernameOrOrganisation/repository.git
 ```
-`USERNAME` - this is optional, it allows you to tie the repository to a certain user.
+or
+```
+git remote set-url origin https://[USERNAME]:[ACCESS_TOKEN]@github.com/usernameOrOrganisation/repository.git
+```
+`USERNAME` - this is optional, it allows you to tie the repository to a certain user.  
+`ACCESS_TOKEN` - this is optional, it allows to configure URL to use the `ACCESS_TOKEN` for authentication.
