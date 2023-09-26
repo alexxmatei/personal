@@ -34,9 +34,10 @@ are first encountering a few different constructs in your nvim config.
 
 I hope you enjoy your Neovim journey,
 - TJ
-
-P.S. You can delete this when you're done too. It's your config now :)
---]]
+-]]
+OS_WINDOWS = true
+OS_LINUX = false
+-- P.S. You can delete this when you're done too. It's your config now :)
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
@@ -227,8 +228,8 @@ require('lazy').setup({
         pattern = [[\b(KEYWORDS)\b]],
       },
       keywords = {
-        REF = {icon = "R", color="hint"}, -- Reference
-        REVIEW = {icon ="R"},
+        REF = { icon = "R", color = "hint" }, -- Reference
+        REVIEW = { icon = "R" },
       },
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
@@ -545,17 +546,21 @@ cmp.setup {
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
   },
-  { 'nvim-telescope/telescope-fzf-native.nvim',
+  {
+    'nvim-telescope/telescope-fzf-native.nvim',
     build =
-    'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
+    'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'
+  }
 }
 
 -- Set a vertical ruler as a recommended best practice not to cross over
 -- This makes it easier to work with multiple editors in split windows amongst other things
 vim.opt.colorcolumn = "80"
 
--- Set PowerShell as the default shell for running shell commands
-vim.o.shell = "powershell"
+if OS_WINDOWS then
+  -- If on windows, set PowerShell as default shell for running shell commands
+  vim.o.shell = "powershell"
+end
 -- Set the shell command flag for PowerShell
 vim.o.shellcmdflag = "-c"
 -- Set shellxquote to an empty string
