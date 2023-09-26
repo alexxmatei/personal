@@ -568,5 +568,7 @@ vim.opt.shellxquote = ''
 
 vim.o.relativenumber = true
 
+vim.api.nvim_set_keymap('t', '<C-t>', '<C-\\><C-n>', { noremap = true })
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
