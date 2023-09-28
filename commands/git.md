@@ -50,6 +50,10 @@ git branch -r
 ```
 git branch -a
 ```
+#### Pull a particular branch
+```
+git pull origin BRANCH_NAME
+```
 #### Extra git branch flags
 `-D` - this flag is equivalent to `-d` `--force`
 #### Set local branch to origin as upstream
