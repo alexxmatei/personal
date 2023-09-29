@@ -75,6 +75,13 @@ git push origin -d branch-name
 To verify that the remote branch has been deleted, you can run [`git branch -a`](https://github.com/alexxmatei/personal/blob/main/commands/git.md#see-all-local--remote-branches).
 
 
+## Stashing
+Stash current version without discarding staged changes.  
+If the changes are unstaged it will not work you have to stash & apply as a workaround.
+```
+git stash save --keep-index "Your stash message"
+```
+
 ## Staging
 #### Remove all untracked files (forced)
 ```
