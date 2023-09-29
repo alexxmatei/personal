@@ -7,6 +7,14 @@
 ```
 :set relativenumber
 ```
+#### Set color column vertical ruler
+```
+:set colorcolumn COL_WIDTH
+```
+OR
+```
+:set cc COL_WIDTH
+```
 ## Change directory
 #### This command changes the working directory to the relative path of the directory containing the currently opened file.
 ```nvim
