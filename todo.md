@@ -7,6 +7,8 @@ Hard & Soft links
 - Replace rem with ::
 - Display proper custom success & error console messages
 - Suppress command output to console when necessary
+### VIM commands
+- Add color column, multiple column command
 
 ## Scripts
 - add nvim to init_environment
