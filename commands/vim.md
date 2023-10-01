@@ -15,6 +15,11 @@ OR
 ```
 :set cc COL_WIDTH
 ```
+It's also possible to set multiple columns:
+```
+:set cc COL1_WIDTH,COL2_WODTH,COL3_WIDTH,etc.
+```
+
 ## Change directory
 #### This command changes the working directory to the relative path of the directory containing the currently opened file.
 ```nvim
