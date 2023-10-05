@@ -15,3 +15,6 @@ Hard & Soft links
 
 ## Configs
 - add REVIEW keyword to nvim TODO
+
+## Others
+- Add Uni repos for new  semester
