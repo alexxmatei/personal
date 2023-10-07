@@ -568,6 +568,11 @@ vim.opt.shellxquote = ''
 
 vim.o.relativenumber = true
 
+-- Add folding settings to enable folds
+vim.o.foldmethod = "expr"
+vim.o.foldexpr = "nvim_treesitter#foldexpr()"
+
+-- Add a hotkey to go from `Terminal` mode to `Normal` mode
 vim.api.nvim_set_keymap('t', '<C-t>', '<C-\\><C-n>', { noremap = true })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
