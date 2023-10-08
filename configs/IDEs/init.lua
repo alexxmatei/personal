@@ -235,6 +235,15 @@ require('lazy').setup({
       -- refer to the configuration section below
     }
   },
+  -- Conform formatter
+  {
+    "stevearc/conform.nvim",
+    opts = {
+      formatters_by_ft = {
+        html = { "prettier" },
+      },
+    },
+  },
 }, {})
 
 -- [[ Setting options ]]
@@ -552,6 +561,24 @@ cmp.setup {
     'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'
   }
 }
+
+-- Configure Cformat user command to allow formatting through conform
+local conform = require 'conform'
+local bufnr = 0
+  -- vim.api.nvim_buf_create_user_command(bufnr, 'Cformat', function(_)
+  --   conform.format()
+  -- end, { desc = 'Format current buffer with LSP' })
+vim.api.nvim_create_user_command("Cformat", function(args)
+  local range = nil
+  if args.count ~= -1 then
+    local end_line = vim.api.nvim_buf_get_lines(0, args.line2 - 1, args.line2, true)[1]
+    range = {
+      start = { args.line1, 0 },
+      ["end"] = { args.line2, end_line:len() },
+    }
+  end
+  require("conform").format({ async = true, lsp_fallback = true, range = range })
+end, { range = true })
 
 -- Set a vertical ruler as a recommended best practice not to cross over
 -- This makes it easier to work with multiple editors in split windows amongst other things
