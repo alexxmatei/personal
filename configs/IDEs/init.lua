@@ -555,7 +555,7 @@ cmp.setup {
 
 -- Set a vertical ruler as a recommended best practice not to cross over
 -- This makes it easier to work with multiple editors in split windows amongst other things
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "80" -- can also use cc as the short form
 
 if OS_WINDOWS then
   -- If on windows, set PowerShell as default shell for running shell commands
