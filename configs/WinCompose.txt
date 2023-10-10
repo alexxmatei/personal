@@ -50,22 +50,25 @@
 <Multi_key> <Multi_key> <a> <n> <a> <r> <c> <h> <y> : "🏴️‍🅰️" # Anarchy flag
 
 # Personal Additions
-<Multi_key> <e> <b> : "📚" # Emojii books
-<Multi_key> <e> <c> : "📆" # Emojii calendar (tear-off)
-<Multi_key> <e> <d> : "🎲" # Emojii dice
+<Multi_key> <e> <b> : "📚"     # Emojii books
+<Multi_key> <e> <c> : "📆"     # Emojii calendar (tear-off)
+<Multi_key> <e> <d> : "🎲"     # Emojii dice
 <Multi_key> <e> <f> <g> : "😁" # Emojii face grinning
 <Multi_key> <e> <f> <m> : "🤯" # Emojii face mind blown
-<Multi_key> <e> <g> <c> : "🎓" Emojii graduation cap
-<Multi_key> <e> <j> : "🕹️" # Emojii joystick
-<Multi_key> <e> <l> : "💻" # Emojii laptop
-<Multi_key> <e> <p> <u> : "👆" #Emojii point up
-<Multi_key> <e> <s> : "📜 " #Emojii scroll
-<Multi_key> <e> <t> : "✅" #Emojii tick
-<Multi_key> <e> <w> : "🪟" # Emojii window
+<Multi_key> <e> <g> <c> : "🎓" # Emojii graduation cap
+<Multi_key> <e> <j> : "🕹️"     # Emojii joystick
+<Multi_key> <e> <l> : "💻"     # Emojii laptop
+<Multi_key> <e> <p> <u> : "👆" # Emojii point up
+<Multi_key> <e> <s> : "📜 "    # Emojii scroll
+<Multi_key> <e> <t> <d> : "✅" # Emojii task done
+<Multi_key> <e> <t> <p> : "⏩" # Emojii task (in) progress
+<Multi_key> <e> <t> <n> : "⏺️"  # Emojii task not started
+<Multi_key> <e> <t> <x> : "❌" # Emojii task not done
+<Multi_key> <e> <w> : "🪟"     # Emojii window
 <Multi_key> <f> <c> <h> : "🇨🇳" # Flag China
 <Multi_key> <f> <d> <e> : "🇩🇪" # Flag Deutchland (Germany)
-<Multi_key> <r> <b> : "🇧" # Regional indicator letter B
-<Multi_key> <r> <i> : "🇮" # Regional indicator letter I
-<Multi_key> <r> <m> : "🇲" # Regional indicator letter M
-<Multi_key> <r> <s> : "🇸" # Regional indicator letter S
-<Multi_key> <r> <v> : "🇻" # Regional indicator letter V
+<Multi_key> <r> <b> : "🇧"     # Regional indicator letter B
+<Multi_key> <r> <i> : "🇮"     # Regional indicator letter I
+<Multi_key> <r> <m> : "🇲"     # Regional indicator letter M
+<Multi_key> <r> <s> : "🇸"     # Regional indicator letter S
+<Multi_key> <r> <v> : "🇻"     # Regional indicator letter V
