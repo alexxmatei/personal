@@ -18,3 +18,4 @@ Hard & Soft links
 
 ## Others
 - Add Uni repos for new  semester
+- Restructure folders & names
