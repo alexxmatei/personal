@@ -53,6 +53,7 @@
 <Multi_key> <e> <b> : "📚"     # Emojii books
 <Multi_key> <e> <c> : "📆"     # Emojii calendar (tear-off)
 <Multi_key> <e> <d> : "🎲"     # Emojii dice
+<Multi_key> <e> <e> : "🦅"     # Emojii eagle
 <Multi_key> <e> <f> <g> : "😁" # Emojii face grinning
 <Multi_key> <e> <f> <m> : "🤯" # Emojii face mind blown
 <Multi_key> <e> <g> <c> : "🎓" # Emojii graduation cap
