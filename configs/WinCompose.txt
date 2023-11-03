@@ -61,10 +61,11 @@
 <Multi_key> <e> <l> : "💻"     # Emojii laptop
 <Multi_key> <e> <p> <u> : "👆" # Emojii point up
 <Multi_key> <e> <s> : "📜 "    # Emojii scroll
+<Multi_key> <e> <t> <t>: "📝"  # Emojii task
 <Multi_key> <e> <t> <d> : "✅" # Emojii task done
 <Multi_key> <e> <t> <s> : "🔀" # Emojii task switched
 <Multi_key> <e> <t> <p> : "⏩" # Emojii task (in) progress
-<Multi_key> <e> <t> <n> : "⏺️" # Emojii task not started
+<Multi_key> <e> <t> <n> : "⏺️"  # Emojii task not started
 <Multi_key> <e> <t> <x> : "❌" # Emojii task not done
 <Multi_key> <e> <w> : "🪟"     # Emojii window
 <Multi_key> <f> <c> <h> : "🇨🇳" # Flag China
