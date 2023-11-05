@@ -120,3 +120,13 @@ git remote set-url origin https://[USERNAME]:[ACCESS_TOKEN]@github.com/usernameO
 ```
 `USERNAME` - this is optional, it allows you to tie the repository to a certain user.  
 `ACCESS_TOKEN` - this is optional, it allows to configure URL to use the `ACCESS_TOKEN` for authentication.
+#### Push all banches to remote
+[Reference](https://stackoverflow.com/questions/6865302/push-local-git-repo-to-new-remote-including-all-branches-and-tags)
+```
+git push REMOTE --all
+```
+#### Push all tags to remote
+[Reference](https://stackoverflow.com/questions/6865302/push-local-git-repo-to-new-remote-including-all-branches-and-tags)
+```
+git push REMOTE --tags
+```
