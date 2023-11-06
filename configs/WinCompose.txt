@@ -60,7 +60,8 @@
 <Multi_key> <e> <j> : "🕹️"     # Emojii joystick
 <Multi_key> <e> <l> : "💻"     # Emojii laptop
 <Multi_key> <e> <p> <u> : "👆" # Emojii point up
-<Multi_key> <e> <s> : "📜 "    # Emojii scroll
+<Multi_key> <e> <s> <c>: "📜 " # Emojii scroll
+<Multi_key> <e> <s> <i>: "👥"  # Emojii silhouette
 <Multi_key> <e> <t> <t>: "📝"  # Emojii task
 <Multi_key> <e> <t> <d> : "✅" # Emojii task done
 <Multi_key> <e> <t> <s> : "🔀" # Emojii task switched
