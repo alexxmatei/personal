@@ -68,7 +68,8 @@
 <Multi_key> <e> <t> <p> : "⏩" # Emojii task (in) progress
 <Multi_key> <e> <t> <n> : "⏺️"  # Emojii task not started
 <Multi_key> <e> <t> <x> : "❌" # Emojii task not done
-<Multi_key> <e> <w> : "🪟"     # Emojii window
+<Multi_key> <e> <w> <i> : "🪟"     # Emojii window
+<Multi_key> <e> <w> <r> : "🔧"     # Emojii wrench
 <Multi_key> <f> <c> <h> : "🇨🇳" # Flag China
 <Multi_key> <f> <d> <e> : "🇩🇪" # Flag Deutchland (Germany)
 <Multi_key> <r> <b> : "🇧"     # Regional indicator letter B
@@ -76,3 +77,4 @@
 <Multi_key> <r> <m> : "🇲"     # Regional indicator letter M
 <Multi_key> <r> <s> : "🇸"     # Regional indicator letter S
 <Multi_key> <r> <v> : "🇻"     # Regional indicator letter V
+
