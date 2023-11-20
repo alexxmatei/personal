@@ -50,8 +50,10 @@
 <Multi_key> <Multi_key> <a> <n> <a> <r> <c> <h> <y> : "🏴️‍🅰️" # Anarchy flag
 
 # Personal Additions
-<Multi_key> <e> <b> : "📚"     # Emojii books
+<Multi_key> <e> <b> <o> : "📚"     # Emojii books
+<Multi_key> <e> <b> <r> : "💼"     # Emojii briefcase
 <Multi_key> <e> <c> <t> : "📆" # Emojii calendar (tear-off)
+<Multi_key> <e> <c> <a> : "🎂" # Emojii cake
 <Multi_key> <e> <c> <o> : "🧭" # Emojii compass
 <Multi_key> <e> <c> <m> : "🕰" # Emojii clock (mantelpiece)
 <Multi_key> <e> <d> : "🎲"     # Emojii dice
