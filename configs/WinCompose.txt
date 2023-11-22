@@ -58,6 +58,7 @@
 <Multi_key> <e> <c> <m> : "🕰" # Emojii clock (mantelpiece)
 <Multi_key> <e> <d> : "🎲"     # Emojii dice
 <Multi_key> <e> <e> : "🦅"     # Emojii eagle
+<Multi_key> <e> <l> : "⚡"     # Emojii electricity
 <Multi_key> <e> <f> <g> : "😁" # Emojii face grinning
 <Multi_key> <e> <f> <m> : "🤯" # Emojii face mind blown
 <Multi_key> <e> <g> <c> : "🎓" # Emojii graduation cap
@@ -82,4 +83,3 @@
 <Multi_key> <r> <s> : "🇸"     # Regional indicator letter S
 <Multi_key> <r> <v> : "🇻"     # Regional indicator letter V
 <Multi_key> <t> <r> <m> <c> : "ro mo co"
-<Multi_key> <t> <n> <s> <d> <a> : "nbb so de [ar" # Software Development Architecture
