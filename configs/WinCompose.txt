@@ -56,18 +56,19 @@
 <Multi_key> <Multi_key> <e> <c> <a> : "🎂" # Emojii cake
 <Multi_key> <Multi_key> <e> <c> <o> : "🧭" # Emojii compass
 <Multi_key> <Multi_key> <e> <c> <m> : "🕰" # Emojii clock (mantelpiece)
-<Multi_key> <Multi_key> <e> <d> : "🎲"     # Emojii dice
-<Multi_key> <Multi_key> <e> <e> <a>: "🦅"  # Emojii eagle
-<Multi_key> <Multi_key> <e> <e> <l>: "⚡"  # Emojii electricity
+<Multi_key> <Multi_key> <e> <d> <i> : "🎲" # Emojii dice
+<Multi_key> <Multi_key> <e> <d> <o> : "📄" # Emojii documentation
+<Multi_key> <Multi_key> <e> <e> <a> : "🦅" # Emojii eagle
+<Multi_key> <Multi_key> <e> <e> <l> : "⚡" # Emojii electricity
 <Multi_key> <Multi_key> <e> <f> <g> : "😁" # Emojii face grinning
 <Multi_key> <Multi_key> <e> <f> <m> : "🤯" # Emojii face mind blown
 <Multi_key> <Multi_key> <e> <g> <c> : "🎓" # Emojii graduation cap
-<Multi_key> <Multi_key> <e> <j> : "🕹️"     # Emojii joystick
-<Multi_key> <Multi_key> <e> <l> : "💻"     # Emojii laptop
+<Multi_key> <Multi_key> <e> <j>     : "🕹️" # Emojii joystick
+<Multi_key> <Multi_key> <e> <l>     : "💻" # Emojii laptop
 <Multi_key> <Multi_key> <e> <p> <u> : "👆" # Emojii point up
-<Multi_key> <Multi_key> <e> <s> <c>: "📜 " # Emojii scroll
-<Multi_key> <Multi_key> <e> <s> <i>: "👥"  # Emojii silhouette
-<Multi_key> <Multi_key> <e> <t> <t>: "📝"  # Emojii task
+<Multi_key> <Multi_key> <e> <s> <c> : "📜 "# Emojii scroll
+<Multi_key> <Multi_key> <e> <s> <i> : "👥" # Emojii silhouette
+<Multi_key> <Multi_key> <e> <t> <t> : "📝" # Emojii task
 <Multi_key> <Multi_key> <e> <t> <d> : "✅" # Emojii task done
 <Multi_key> <Multi_key> <e> <t> <s> : "🔀" # Emojii task switched
 <Multi_key> <Multi_key> <e> <t> <p> : "⏩" # Emojii task (in) progress
@@ -77,9 +78,9 @@
 <Multi_key> <Multi_key> <e> <w> <r> : "🔧" # Emojii wrench
 <Multi_key> <Multi_key> <f> <c> <h> : "🇨🇳" # Flag China
 <Multi_key> <Multi_key> <f> <d> <e> : "🇩🇪" # Flag Deutchland (Germany)
-<Multi_key> <Multi_key> <r> <b> : "🇧"     # Regional indicator letter B
-<Multi_key> <Multi_key> <r> <i> : "🇮"     # Regional indicator letter I
-<Multi_key> <Multi_key> <r> <m> : "🇲"     # Regional indicator letter M
-<Multi_key> <Multi_key> <r> <s> : "🇸"     # Regional indicator letter S
-<Multi_key> <Multi_key> <r> <v> : "🇻"     # Regional indicator letter V
-<Multi_key> <Multi_key> <t> <r> <m> <c> : "ro mo co"
+<Multi_key> <Multi_key> <r> <b> : "🇧" # Regional indicator letter B
+<Multi_key> <Multi_key> <r> <i> : "🇮" # Regional indicator letter I
+<Multi_key> <Multi_key> <r> <m> : "🇲" # Regional indicator letter M
+<Multi_key> <Multi_key> <r> <s> : "🇸" # Regional indicator letter S
+<Multi_key> <Multi_key> <r> <v> : "🇻" # Regional indicator letter V
+<Multi_key> <Multi_key> <t> <r> <m> <c> : "ro mo co" # Routine Morning Coffee
