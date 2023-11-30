@@ -48,12 +48,12 @@
 <Multi_key> <Multi_key> <s> <e> <n> <y> <e> <r> <a> : "🏴󠁥󠁳󠁣󠁴󠁿" # Catalogne flag (senyera)
 <Multi_key> <Multi_key> <i> <k> <u> <r> <r> <i> <n> <a> : "🏴󠁥󠁳󠁰󠁶󠁿" # Basque flag (ikurrina)
 <Multi_key> <Multi_key> <a> <n> <a> <r> <c> <h> <y> : "🏴️‍🅰️" # Anarchy flag
-
 # Personal Additions
 <Multi_key> <Multi_key> <e> <b> <o> : "📚" # Emojii books
 <Multi_key> <Multi_key> <e> <b> <r> : "💼" # Emojii briefcase
 <Multi_key> <Multi_key> <e> <c> <t> : "📆" # Emojii calendar (tear-off)
 <Multi_key> <Multi_key> <e> <c> <a> : "🎂" # Emojii cake
+<Multi_key> <Multi_key> <e> <c> <l> : "📋" # Emojii clipboard
 <Multi_key> <Multi_key> <e> <c> <o> : "🧭" # Emojii compass
 <Multi_key> <Multi_key> <e> <c> <m> : "🕰" # Emojii clock (mantelpiece)
 <Multi_key> <Multi_key> <e> <d> <i> : "🎲" # Emojii dice
@@ -67,6 +67,7 @@
 <Multi_key> <Multi_key> <e> <l>     : "💻" # Emojii laptop
 <Multi_key> <Multi_key> <e> <p> <u> : "👆" # Emojii point up
 <Multi_key> <Multi_key> <e> <s> <c> : "📜 "# Emojii scroll
+<Multi_key> <Multi_key> <e> <s> <d> : "👨‍💻" # Emojii software developer
 <Multi_key> <Multi_key> <e> <s> <i> : "👥" # Emojii silhouette
 <Multi_key> <Multi_key> <e> <t> <t> : "📝" # Emojii task
 <Multi_key> <Multi_key> <e> <t> <d> : "✅" # Emojii task done
@@ -74,6 +75,7 @@
 <Multi_key> <Multi_key> <e> <t> <p> : "⏩" # Emojii task (in) progress
 <Multi_key> <Multi_key> <e> <t> <n> : "⏺️"  # Emojii task not started
 <Multi_key> <Multi_key> <e> <t> <x> : "❌" # Emojii task not done
+<Multi_key> <Multi_key> <e> <v>     : "🌋" # Emojii volcano
 <Multi_key> <Multi_key> <e> <w> <i> : "🪟" # Emojii window
 <Multi_key> <Multi_key> <e> <w> <r> : "🔧" # Emojii wrench
 <Multi_key> <Multi_key> <f> <c> <h> : "🇨🇳" # Flag China
