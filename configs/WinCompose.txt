@@ -43,12 +43,8 @@
 
 <Multi_key> <h> <w> : "Hello World"
 
-<Multi_key> <b> <z> <h>             : "🏴󠁦󠁲󠁢󠁲󠁥󠁿" # Bretagne flag (gwenn-ha-du)
-<Multi_key> <Multi_key> <b> <z> <h> : "🏴󠁦󠁲󠁢󠁲󠁥󠁿" # Bretagne flag (gwenn-ha-du)
-<Multi_key> <Multi_key> <s> <e> <n> <y> <e> <r> <a> : "🏴󠁥󠁳󠁣󠁴󠁿" # Catalogne flag (senyera)
-<Multi_key> <Multi_key> <i> <k> <u> <r> <r> <i> <n> <a> : "🏴󠁥󠁳󠁰󠁶󠁿" # Basque flag (ikurrina)
-<Multi_key> <Multi_key> <a> <n> <a> <r> <c> <h> <y> : "🏴️‍🅰️" # Anarchy flag
 # Personal Additions
+## Emojiis
 <Multi_key> <Multi_key> <e> <b> <o> : "📚" # Emojii books
 <Multi_key> <Multi_key> <e> <b> <r> : "💼" # Emojii briefcase
 <Multi_key> <Multi_key> <e> <c> <t> : "📆" # Emojii calendar (tear-off)
@@ -66,6 +62,7 @@
 <Multi_key> <Multi_key> <e> <j>     : "🕹️" # Emojii joystick
 <Multi_key> <Multi_key> <e> <l>     : "💻" # Emojii laptop
 <Multi_key> <Multi_key> <e> <p> <u> : "👆" # Emojii point up
+<Multi_key> <Multi_key> <e> <q>     : "❓" # Emojii question mark
 <Multi_key> <Multi_key> <e> <s> <c> : "📜 "# Emojii scroll
 <Multi_key> <Multi_key> <e> <s> <d> : "👨‍💻" # Emojii software developer
 <Multi_key> <Multi_key> <e> <s> <i> : "👥" # Emojii silhouette
@@ -85,4 +82,6 @@
 <Multi_key> <Multi_key> <r> <m> : "🇲" # Regional indicator letter M
 <Multi_key> <Multi_key> <r> <s> : "🇸" # Regional indicator letter S
 <Multi_key> <Multi_key> <r> <v> : "🇻" # Regional indicator letter V
-<Multi_key> <Multi_key> <t> <r> <m> <c> : "ro mo co" # Routine Morning Coffee
+## Toggl
+<Multi_key> <Multi_key> <t> <r> <m> <c>     : "ro mo co"     # Routine Morning - Coffee
+<Multi_key> <Multi_key> <t> <m> <p> <o> <r> : "ma ph or [ro" # Maintenance Physical - Organizing: [room]
