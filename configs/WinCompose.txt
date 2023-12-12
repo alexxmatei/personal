@@ -78,10 +78,14 @@
 <Multi_key> <Multi_key> <f> <c> <h> : "🇨🇳" # Flag China
 <Multi_key> <Multi_key> <f> <d> <e> : "🇩🇪" # Flag Deutchland (Germany)
 <Multi_key> <Multi_key> <r> <b> : "🇧" # Regional indicator letter B
+<Multi_key> <Multi_key> <r> <b> : "🇨" # Regional indicator letter C
 <Multi_key> <Multi_key> <r> <i> : "🇮" # Regional indicator letter I
 <Multi_key> <Multi_key> <r> <m> : "🇲" # Regional indicator letter M
 <Multi_key> <Multi_key> <r> <s> : "🇸" # Regional indicator letter S
 <Multi_key> <Multi_key> <r> <v> : "🇻" # Regional indicator letter V
 ## Toggl
-<Multi_key> <Multi_key> <t> <r> <m> <c>     : "ro mo co"     # Routine Morning - Coffee
-<Multi_key> <Multi_key> <t> <m> <p> <o> <r> : "ma ph or [ro" # Maintenance Physical - Organizing: [room]
+<Multi_key> <Multi_key> <t> <r> <m> <c>     : "ro mo co"     # Toggl Routine Morning - Coffee
+<Multi_key> <Multi_key> <t> <m> <p> <o> <r> : "ma ph or [ro" # Toggl Maintenance Physical - Organizing: [room]
+<Multi_key> <Multi_key> <t> <h> <p> <c>     : "ho po [co"    # Toggl Hobbies Power User - [Config]
+<Multi_key> <Multi_key> <t> <a> <p> <r>     : "ad pu [re"    # Toggl Administrative Purchasing [Research]
+<Multi_key> <Multi_key> <t> <h> <b>         : "hu [bi"       # Toggl Human Big
