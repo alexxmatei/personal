@@ -78,7 +78,7 @@
 <Multi_key> <Multi_key> <f> <c> <h> : "🇨🇳" # Flag China
 <Multi_key> <Multi_key> <f> <d> <e> : "🇩🇪" # Flag Deutchland (Germany)
 <Multi_key> <Multi_key> <r> <b> : "🇧" # Regional indicator letter B
-<Multi_key> <Multi_key> <r> <b> : "🇨" # Regional indicator letter C
+<Multi_key> <Multi_key> <r> <c> : "🇨" # Regional indicator letter C
 <Multi_key> <Multi_key> <r> <i> : "🇮" # Regional indicator letter I
 <Multi_key> <Multi_key> <r> <m> : "🇲" # Regional indicator letter M
 <Multi_key> <Multi_key> <r> <s> : "🇸" # Regional indicator letter S
