@@ -50,6 +50,11 @@ git branch -r
 ```
 git branch -a
 ```
+#### Switch to an existing branch
+NOTE: This can also 'guess' and switch locally on a branch that exists in a remote repo (it creates the branch and pulls the remote branch into it and tracks it).
+```
+git switch <branch>
+```
 #### Pull a particular branch
 ```
 git pull origin BRANCH_NAME
