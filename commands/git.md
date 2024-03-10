@@ -51,6 +51,7 @@ git branch -r
 git branch -a
 ```
 #### Switch to an existing branch
+Reference[^1].  
 NOTE: This can also 'guess' and switch locally on a branch that exists in a remote repo (it creates the branch and pulls the remote branch into it and tracks it).
 ```
 git switch <branch>
@@ -135,3 +136,7 @@ git push REMOTE --all
 ```
 git push REMOTE --tags
 ```
+
+## References
+[Reference](https://stackoverflow.com/questions/26587527/cite-a-paper-using-github-markdown-syntax)
+[^1]: Stack Overflow: [Link 1](https://stackoverflow.com/questions/1783405/how-do-i-check-out-a-remote-git-branch), [Link 2](https://stackoverflow.com/questions/57265785/whats-the-difference-between-git-switch-and-git-checkout-branch).
