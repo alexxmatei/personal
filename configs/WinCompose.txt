@@ -43,12 +43,22 @@
 
 <Multi_key> <h> <w> : "Hello World"
 
+<Multi_key> <b> <z> <h>             : "🏴󠁦󠁲󠁢󠁲󠁥󠁿" # Bretagne flag (gwenn-ha-du)
+<Multi_key> <Multi_key> <b> <z> <h> : "🏴󠁦󠁲󠁢󠁲󠁥󠁿" # Bretagne flag (gwenn-ha-du)
+<Multi_key> <Multi_key> <s> <e> <n> <y> <e> <r> <a> : "🏴󠁥󠁳󠁣󠁴󠁿" # Catalogne flag (senyera)
+<Multi_key> <Multi_key> <i> <k> <u> <r> <r> <i> <n> <a> : "🏴󠁥󠁳󠁰󠁶󠁿" # Basque flag (ikurrina)
+<Multi_key> <Multi_key> <a> <n> <a> <r> <c> <h> <y> : "🏴️‍🅰️" # Anarchy flag
+
 # Personal Additions
 ## Emojiis
+### General
+<Multi_key> <Multi_key> <e> <a> <b> : "🧮" # Emojii abacus
+<Multi_key> <Multi_key> <e> <a> <m> : "🚑" # Emojii ambulance
 <Multi_key> <Multi_key> <e> <b> <o> : "📚" # Emojii books
 <Multi_key> <Multi_key> <e> <b> <r> : "💼" # Emojii briefcase
 <Multi_key> <Multi_key> <e> <c> <t> : "📆" # Emojii calendar (tear-off)
-<Multi_key> <Multi_key> <e> <c> <a> : "🎂" # Emojii cake
+<Multi_key> <Multi_key> <e> <c> <a> <k> : "🎂" # Emojii cake
+<Multi_key> <Multi_key> <e> <c> <a> <r> : "🚗" # Emojii car
 <Multi_key> <Multi_key> <e> <c> <l> : "📋" # Emojii clipboard
 <Multi_key> <Multi_key> <e> <c> <o> : "🧭" # Emojii compass
 <Multi_key> <Multi_key> <e> <c> <m> : "🕰" # Emojii clock (mantelpiece)
@@ -56,14 +66,13 @@
 <Multi_key> <Multi_key> <e> <d> <o> : "📄" # Emojii documentation
 <Multi_key> <Multi_key> <e> <e> <a> : "🦅" # Emojii eagle
 <Multi_key> <Multi_key> <e> <e> <l> : "⚡" # Emojii electricity
-<Multi_key> <Multi_key> <e> <f> <g> : "😁" # Emojii face grinning
-<Multi_key> <Multi_key> <e> <f> <m> : "🤯" # Emojii face mind blown
 <Multi_key> <Multi_key> <e> <g> <c> : "🎓" # Emojii graduation cap
 <Multi_key> <Multi_key> <e> <j>     : "🕹️" # Emojii joystick
 <Multi_key> <Multi_key> <e> <l>     : "💻" # Emojii laptop
-<Multi_key> <Multi_key> <e> <p> <u> : "👆" # Emojii point up
+<Multi_key> <Multi_key> <e> <e> <p> <a> : "📟" # Emojii pager
 <Multi_key> <Multi_key> <e> <q>     : "❓" # Emojii question mark
 <Multi_key> <Multi_key> <e> <s> <c> : "📜 "# Emojii scroll
+<Multi_key> <Multi_key> <e> <s> <p> : "🗒" # Emojii spiral notepad
 <Multi_key> <Multi_key> <e> <s> <d> : "👨‍💻" # Emojii software developer
 <Multi_key> <Multi_key> <e> <s> <i> : "👥" # Emojii silhouette
 <Multi_key> <Multi_key> <e> <t> <t> : "📝" # Emojii task
@@ -71,6 +80,8 @@
 <Multi_key> <Multi_key> <e> <t> <s> : "🔀" # Emojii task switched
 <Multi_key> <Multi_key> <e> <t> <p> : "⏩" # Emojii task (in) progress
 <Multi_key> <Multi_key> <e> <t> <n> : "⏺️"  # Emojii task not started
+<Multi_key> <Multi_key> <e> <t> <o> <p> : "🎩" # Emojii top hat
+<Multi_key> <Multi_key> <e> <t> <o> <o> : "🦷" # Emojii tooth
 <Multi_key> <Multi_key> <e> <t> <x> : "❌" # Emojii task not done
 <Multi_key> <Multi_key> <e> <v>     : "🌋" # Emojii volcano
 <Multi_key> <Multi_key> <e> <w> <i> : "🪟" # Emojii window
@@ -83,9 +94,17 @@
 <Multi_key> <Multi_key> <r> <m> : "🇲" # Regional indicator letter M
 <Multi_key> <Multi_key> <r> <s> : "🇸" # Regional indicator letter S
 <Multi_key> <Multi_key> <r> <v> : "🇻" # Regional indicator letter V
-## Toggl
+### Faces + Pointing
+<Multi_key> <Multi_key> <e> <f> <g> : "😁" # Emojii face grinning
+<Multi_key> <Multi_key> <e> <f> <m> : "🤯" # Emojii face mind blown
+<Multi_key> <e> <p> <u> : "👆" # Emojii point up
+
+### Toggl
 <Multi_key> <Multi_key> <t> <r> <m> <c>     : "ro mo co"     # Toggl Routine Morning - Coffee
 <Multi_key> <Multi_key> <t> <m> <p> <o> <r> : "ma ph or [ro" # Toggl Maintenance Physical - Organizing: [room]
 <Multi_key> <Multi_key> <t> <h> <p> <c>     : "ho po [co"    # Toggl Hobbies Power User - [Config]
 <Multi_key> <Multi_key> <t> <a> <p> <r>     : "ad pu [re"    # Toggl Administrative Purchasing [Research]
 <Multi_key> <Multi_key> <t> <h> <b>         : "hu [bi"       # Toggl Human Big
+
+# Local
+<Multi_key> <Multi_key> <t> <n> <s> <d> <a> : "nbb so de [ar" # Software Development Architecture
