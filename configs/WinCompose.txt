@@ -56,21 +56,22 @@
 <Multi_key> <Multi_key> <e> <a> <m> : "🚑" # Emojii ambulance
 <Multi_key> <Multi_key> <e> <b> <o> : "📚" # Emojii books
 <Multi_key> <Multi_key> <e> <b> <r> : "💼" # Emojii briefcase
-<Multi_key> <Multi_key> <e> <c> <t> : "📆" # Emojii calendar (tear-off)
+<Multi_key> <Multi_key> <e> <c> <a> <t> : "📆" # Emojii calendar (tear-off)
 <Multi_key> <Multi_key> <e> <c> <a> <k> : "🎂" # Emojii cake
 <Multi_key> <Multi_key> <e> <c> <a> <r> : "🚗" # Emojii car
 <Multi_key> <Multi_key> <e> <c> <l> : "📋" # Emojii clipboard
 <Multi_key> <Multi_key> <e> <c> <o> : "🧭" # Emojii compass
-<Multi_key> <Multi_key> <e> <c> <m> : "🕰" # Emojii clock (mantelpiece)
 <Multi_key> <Multi_key> <e> <d> <i> : "🎲" # Emojii dice
-<Multi_key> <Multi_key> <e> <d> <o> : "📄" # Emojii documentation
 <Multi_key> <Multi_key> <e> <e> <a> : "🦅" # Emojii eagle
-<Multi_key> <Multi_key> <e> <e> <l> : "⚡" # Emojii electricity
 <Multi_key> <Multi_key> <e> <g> <c> : "🎓" # Emojii graduation cap
-<Multi_key> <Multi_key> <e> <j>     : "🕹️" # Emojii joystick
-<Multi_key> <Multi_key> <e> <l>     : "💻" # Emojii laptop
-<Multi_key> <Multi_key> <e> <e> <p> <a> : "📟" # Emojii pager
-<Multi_key> <Multi_key> <e> <q>     : "❓" # Emojii question mark
+<Multi_key> <Multi_key> <e> <h> <i> : "⚡" # Emojii high voltage (electricity)
+<Multi_key> <Multi_key> <e> <j> <o> : "🕹️" # Emojii joystick
+<Multi_key> <Multi_key> <e> <l> <a> : "💻" # Emojii laptop
+<Multi_key> <Multi_key> <e> <m> <a> : "🕰" # Emojii mantelpiece (clock)
+<Multi_key> <Multi_key> <e> <n> <a> : "🧿" # Emojii nazar amulet
+<Multi_key> <Multi_key> <e> <p> <a> <u> : "📄" # Emojii page facing up (doc)
+<Multi_key> <Multi_key> <e> <p> <a> <g> : "📟" # Emojii pager
+<Multi_key> <Multi_key> <e> <q> <u> : "❓" # Emojii question mark
 <Multi_key> <Multi_key> <e> <s> <c> : "📜 "# Emojii scroll
 <Multi_key> <Multi_key> <e> <s> <p> : "🗒" # Emojii spiral notepad
 <Multi_key> <Multi_key> <e> <s> <d> : "👨‍💻" # Emojii software developer
