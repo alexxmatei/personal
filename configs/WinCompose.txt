@@ -54,6 +54,7 @@
 ### General
 <Multi_key> <Multi_key> <e> <a> <b> : "🧮" # Emojii abacus
 <Multi_key> <Multi_key> <e> <a> <m> : "🚑" # Emojii ambulance
+<Multi_key> <Multi_key> <e> <b> <a> : "💈" # Emojii barber pole
 <Multi_key> <Multi_key> <e> <b> <o> : "📚" # Emojii books
 <Multi_key> <Multi_key> <e> <b> <r> : "💼" # Emojii briefcase
 <Multi_key> <Multi_key> <e> <c> <a> <t> : "📆" # Emojii calendar (tear-off)
@@ -98,6 +99,7 @@
 ### Faces + Pointing
 <Multi_key> <Multi_key> <e> <f> <g> : "😁" # Emojii face grinning
 <Multi_key> <Multi_key> <e> <f> <m> : "🤯" # Emojii face mind blown
+<Multi_key> <Multi_key> <e> <f> <r> : "🤣" # Emojii face rolling on the floor
 <Multi_key> <e> <p> <u> : "👆" # Emojii point up
 
 ### Toggl
