@@ -82,6 +82,7 @@
 <Multi_key> <Multi_key> <e> <t> <s> : "🔀" # Emojii task switched
 <Multi_key> <Multi_key> <e> <t> <p> : "⏩" # Emojii task (in) progress
 <Multi_key> <Multi_key> <e> <t> <n> : "⏺️"  # Emojii task not started
+<Multi_key> <Multi_key> <e> <t> <e> : "🧪" # Emojii test tube
 <Multi_key> <Multi_key> <e> <t> <o> <p> : "🎩" # Emojii top hat
 <Multi_key> <Multi_key> <e> <t> <o> <o> : "🦷" # Emojii tooth
 <Multi_key> <Multi_key> <e> <t> <x> : "❌" # Emojii task not done
