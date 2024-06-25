@@ -101,11 +101,13 @@
 <Multi_key> <Multi_key> <r> <m> : "🇲" # Regional indicator letter M
 <Multi_key> <Multi_key> <r> <s> : "🇸" # Regional indicator letter S
 <Multi_key> <Multi_key> <r> <v> : "🇻" # Regional indicator letter V
-### Faces + Pointing
+### Faces
 <Multi_key> <Multi_key> <e> <f> <g> : "😁" # Emojii face grinning
 <Multi_key> <Multi_key> <e> <f> <m> : "🤯" # Emojii face mind blown
 <Multi_key> <Multi_key> <e> <f> <r> : "🤣" # Emojii face rolling on the floor
-<Multi_key> <e> <p> <u> : "👆" # Emojii point up
+### Hands
+<Multi_key> <Multi_key> <e> <h> <h> : "🤝" # Emojii hand handshake
+<Multi_key> <Multi_key> <e> <h> <p> : "👆" # Emojii hand backhand index pointing up
 
 ### Toggl
 <Multi_key> <Multi_key> <t> <r> <m> <c>     : "ro mo co"     # Toggl Routine Morning - Coffee
