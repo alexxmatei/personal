@@ -9,15 +9,15 @@
 ```
 #### Set color column vertical ruler
 ```
-:set colorcolumn COL_WIDTH
+:set colorcolumn=COL_WIDTH
 ```
 OR
 ```
-:set cc COL_WIDTH
+:set cc=COL_WIDTH
 ```
 It's also possible to set multiple columns:
 ```
-:set cc COL1_WIDTH,COL2_WODTH,COL3_WIDTH,etc.
+:set cc=COL1_WIDTH,COL2_WODTH,COL3_WIDTH,etc.
 ```
 
 ## Change directory
