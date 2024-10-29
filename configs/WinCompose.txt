@@ -64,6 +64,7 @@
 <Multi_key> <Multi_key> <e> <c> <o> : "🧭" # Emojii compass
 <Multi_key> <Multi_key> <e> <d> <i> : "🎲" # Emojii dice
 <Multi_key> <Multi_key> <e> <e> <a> : "🦅" # Emojii eagle
+<Multi_key> <Multi_key> <e> <e> <y> : "👁️" # Emojii eye
 <Multi_key> <Multi_key> <e> <g> <c> : "🎓" # Emojii graduation cap
 <Multi_key> <Multi_key> <e> <h> <i> : "⚡" # Emojii high voltage (electricity)
 <Multi_key> <Multi_key> <e> <j> <o> : "🕹️" # Emojii joystick
@@ -78,7 +79,8 @@
 <Multi_key> <Multi_key> <e> <s> <c> : "📜 "# Emojii scroll
 <Multi_key> <Multi_key> <e> <s> <p> : "🗒" # Emojii spiral notepad
 <Multi_key> <Multi_key> <e> <s> <d> : "👨‍💻" # Emojii software developer
-<Multi_key> <Multi_key> <e> <s> <i> : "👥" # Emojii silhouette
+<Multi_key> <Multi_key> <e> <s> <i> <1> : "👤" # Emojii silhouette
+<Multi_key> <Multi_key> <e> <s> <i> <2> : "👥" # Emojii silhouettes
 <Multi_key> <Multi_key> <e> <s> <p> : "💬" # Emojii speech balloon
 <Multi_key> <Multi_key> <e> <s> <t> : "⭐" # Emojii star
 <Multi_key> <Multi_key> <e> <t> <t> : "📝" # Emojii task
@@ -93,14 +95,16 @@
 <Multi_key> <Multi_key> <e> <v>     : "🌋" # Emojii volcano
 <Multi_key> <Multi_key> <e> <w> <i> : "🪟" # Emojii window
 <Multi_key> <Multi_key> <e> <w> <r> : "🔧" # Emojii wrench
-<Multi_key> <Multi_key> <f> <c> <h> : "🇨🇳" # Flag China
-<Multi_key> <Multi_key> <f> <d> <e> : "🇩🇪" # Flag Deutchland (Germany)
 <Multi_key> <Multi_key> <r> <b> : "🇧" # Regional indicator letter B
 <Multi_key> <Multi_key> <r> <c> : "🇨" # Regional indicator letter C
 <Multi_key> <Multi_key> <r> <i> : "🇮" # Regional indicator letter I
 <Multi_key> <Multi_key> <r> <m> : "🇲" # Regional indicator letter M
 <Multi_key> <Multi_key> <r> <s> : "🇸" # Regional indicator letter S
 <Multi_key> <Multi_key> <r> <v> : "🇻" # Regional indicator letter V
+### Flags
+<Multi_key> <Multi_key> <f> <c> <h> : "🇨🇳" # Flag China
+<Multi_key> <Multi_key> <f> <d> <e> : "🇩🇪" # Flag Deutchland (Germany)
+<Multi_key> <Multi_key> <f> <c> <h> : "🇨🇭" # Flag Deutchland (Germany)
 ### Faces
 <Multi_key> <Multi_key> <e> <f> <g> : "😁" # Emojii face grinning
 <Multi_key> <Multi_key> <e> <f> <m> : "🤯" # Emojii face mind blown
