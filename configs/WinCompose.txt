@@ -119,6 +119,3 @@
 <Multi_key> <Multi_key> <t> <h> <p> <c>     : "ho po [co"    # Toggl Hobbies Power User - [Config]
 <Multi_key> <Multi_key> <t> <a> <p> <r>     : "ad pu [re"    # Toggl Administrative Purchasing [Research]
 <Multi_key> <Multi_key> <t> <h> <b>         : "hu [bi"       # Toggl Human Big
-
-# Local
-<Multi_key> <Multi_key> <t> <n> <s> <d> <a> : "nbb so de [ar" # Software Development Architecture
